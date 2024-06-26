@@ -1,0 +1,32 @@
+<table class="table"> 
+    <thead>
+        <tr>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img [src]="pizza.image" [alt]="pizza.name"></td>
+            <td>{{pizza.name}}</td>
+            <td>{{pizza.descrip}}</td>
+            <td>{{pizza.price}}</td>
+            <td>{{pizza.stock}}</td>
+        </tr>
+        <tr>
+            <td>Napolitana</td>
+            <td>muzza, tomate y ajo</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>fugazza</td>
+            <td>muzza y cebolla</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+    </tbody>
+</table>
