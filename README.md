@@ -1,5 +1,12 @@
 # TpAngular
 
+Alfonsina Moris
+DNI: 45521885
+alfonsina.moris@gmail.com
+Sede Tandil
+
+La tematica de la pagina es venta de pizzas. Se tiene un listado de productos contenidos en una API, que son mostrados en el inicio, se puede agregar productos al carrito dependiendo del stock. Ademas se permite borrar del carrito los productos que no van a llevar y hacer el pedido al terminar de decidir.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.
 
 ## Development server
