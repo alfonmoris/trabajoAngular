@@ -1,0 +1,19 @@
+.cart-container{
+    margin-left:100px ;
+    margin-top: 20px;
+}
+
+.btn {
+    height: 35px;
+    background-color: #605f5f;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin: 3px;
+}
+
+.btn:hover {
+    background-color: #2d2a29;
+}

@@ -1,18 +1,26 @@
+<body>
 <div class="container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Home</a>
-      <a class="navbar-brand" href="#">Contacto</a>
-      <a class="navbar-brand" href="#">about us</a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/']">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/about']">about us</a>
+        </li>
+      </ul>
+    
     </div>
   </nav>
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-8">
-      <app-product-list></app-product-list>
-    </div>
-    <div class="col-4">carrito de compras</div>
-  </div>
+  <router-outlet></router-outlet>
 </div>
+
+</body>
+<footer>
+  <p>Alfonsina Moris</p>
+  <p>2024</p>
+</footer>

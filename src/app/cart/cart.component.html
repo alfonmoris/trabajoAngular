@@ -1,0 +1,11 @@
+<div class="cart-container">
+    <h3>Carrito de compras</h3>
+
+    <ul>
+        <td *ngFor="let pizza of (cartList$ | async)">
+            {{pizza.name}}:{{pizza.quantity}}
+            <button class="btn" (click)="deleteFromCart(pizza)">eliminar</button>
+        </td>
+        <button class="btn" (click)="submit()">Realizar Pedido</button>
+    </ul>
+</div>
